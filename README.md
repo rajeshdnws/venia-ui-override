@@ -5,13 +5,14 @@ This project is intended for [PWA Studio](https://github.com/magento/pwa-studio)
 
 ## Install this package
 ```
- yarn add @rajeshdnws/venia-ui-override
+ yarn add https://github.com/rajeshdnws/venia-ui-override.git
+
 ```
 
 or
 
 ```
-npm i @rajeshdnws/venia-ui-override
+npm i https://github.com/rajeshdnws/venia-ui-override.git
 ```
 
 ## Usage
