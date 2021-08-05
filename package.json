@@ -1,0 +1,30 @@
+{
+  "name": "@rajeshdnw/venia-ui-override",
+  "version": "1.0.0-rc.2",
+  "description": "Customise individual files from the Magento 2 PWA Studio Venia Theme",
+  "main": "./lib/VeniaUiResolverPlugin/index.js",
+  "files": [
+    "lib/*",
+    "lib/**/*",
+    "intercept.js"
+  ],
+  "repository": "git@github.com:rajeshdnws/venia-ui-override.git",
+  "author": "Rajesh Chaudhary <rajeshdnw@gmail.com>",
+  "license": "MIT",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./intercept"
+    }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "^5.1.0-beta.2"
+  },
+  "devDependencies": {
+    "enhanced-resolve": "^4.1.1",
+    "@magento/pwa-buildpack": "^5.1.0-beta.2"
+  },
+  "bugs": {
+    "url": "https://github.com/rajeshdnws/venia-ui-override/issues"
+  },
+  "homepage": "https://github.com/rajeshdnws/venia-ui-override"
+}
